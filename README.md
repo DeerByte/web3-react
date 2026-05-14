@@ -1,16 +1,24 @@
-# React + Vite
+# COMP 4513 — Assignment 2: React SPA
+**Willow Sobolewski — Mount Royal University**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A single-page application built with React, Vite, Tailwind CSS, and Base UI. Connects to a Node/Express API backed by a Supabase PostgreSQL database.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React 19 + React Router 7
+- Tailwind CSS
+- Base UI (component primitives)
+- Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## AI Disclosure
+Component styling (Tailwind CSS classes, layout, colour palette) for the following files was generated with assistance from **Claude by Anthropic**:
+- `src/components/Header.jsx`
+- `src/components/Artist.jsx`
+- `src/components/Dialog.jsx`
+- `src/views/Artists.jsx`
+- `src/views/Home.jsx`
 
-## React Compiler
+All logic, architecture, data fetching, state management, and routing was written by Willow Sobolewski.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Related Repos
+- Node API: https://github.com/DeerByte/web3-supanode
+- This project: https://github.com/DeerByte/web3-react
